@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Realtime Image Identification</title>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <div id="container">
+    <body>
+        <center>
+            <h3 class="btn btn-info heading">Realtime Image Identification
+            <hr><center>
+                <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">The Model is Trained on
+                <br>
+                <div class = "btn btn-warning heading_div2">Student ID | Water Bottle | Book | Glasses | Penny</div>
+                </div>
+            </center><br></h3>
+            <br>
+            <br>
+            
+            <p class="btn btn-warning result_para_tag">Object : 
+                <span id="result_object_name"></span>
+            </p>
+            <br>
+            <br>
+            <p class="btn btn-warning result_para_tag">Accuracy : 
+                <span id="result_object_accuracy"></span>
+            </p>
+        </center>   
+        <div class="copy_right_footer">
+            Developed by - Lota Aho
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
